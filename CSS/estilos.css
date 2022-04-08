@@ -35,14 +35,17 @@ z-index: 2;
 display: block;
     width: 67px;
 }
- ul ul li a{
+ul ul li a{
 
-    background-color: #fcfcfc;
+    background-color: #b9b087;
+	border: solid 1px black;
 }
 ul li:hover ul {
     position: absolute;
+	left: 10px;
     display: block;
-    background-color: #ffffff;
+    background-color: #b9b087;
+	border: solid 1px black;
 }
 li a:hover {
     background-color: rgb(95, 128, 159);
